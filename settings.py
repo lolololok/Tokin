@@ -1,0 +1,1 @@
+RL_PATH = r"D:\Python\python_txt\Tokin\test_flod\rl_list"

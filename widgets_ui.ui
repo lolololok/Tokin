@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="10" column="6" rowspan="2" colspan="3">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>info output</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QLabel" name="top_label">
+      <property name="text">
+       <string>rl_input</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="9" rowspan="9">
+     <widget class="Line" name="line_6">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>TC</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="5">
+     <widget class="Line" name="bottom_line0">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4" rowspan="9">
+     <widget class="Line" name="line_5">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="11" colspan="2">
+     <widget class="QPushButton" name="buildButton">
+      <property name="text">
+       <string>build_sim_script</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5" rowspan="7" colspan="4">
+     <widget class="QListWidget" name="Tc_list"/>
+    </item>
+    <item row="9" column="11">
+     <widget class="QPushButton" name="runButton">
+      <property name="text">
+       <string>RUN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="11">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>option select</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="top_title_label">
+      <property name="text">
+       <string>File</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="12">
+     <widget class="QComboBox" name="comboBox"/>
+    </item>
+    <item row="12" column="12">
+     <widget class="QPushButton" name="clearButton">
+      <property name="text">
+       <string>clear</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="11" colspan="2">
+     <widget class="QPushButton" name="cleanButton">
+      <property name="text">
+       <string>clean</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4" colspan="2">
+     <widget class="Line" name="line_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2" colspan="2">
+     <widget class="QLineEdit" name="top_lineEdit"/>
+    </item>
+    <item row="0" column="10">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="8" colspan="5">
+     <widget class="Line" name="bottom_line1">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7" colspan="2">
+     <widget class="Line" name="line_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="11" colspan="2">
+     <widget class="QPushButton" name="preprocButton">
+      <property name="text">
+       <string>preproc</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="5" colspan="8">
+     <widget class="QPlainTextEdit" name="info_output">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="11" colspan="2">
+     <widget class="QPushButton" name="addLinksButton">
+      <property name="text">
+       <string>add_links</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="Line" name="top_line0">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" rowspan="11" colspan="4">
+     <widget class="QTreeView" name="left_list">
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="Line" name="top_line1">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="12">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="12">
+     <widget class="QLineEdit" name="right_option_file">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="11">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>option file</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="12">
+     <widget class="QLabel" name="ClassOptionLabel">
+      <property name="text">
+       <string>class option</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>774</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
